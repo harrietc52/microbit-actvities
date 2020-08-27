@@ -26,8 +26,8 @@ Find the `||logic: 0 > 0 ||` comparison block that will help us compare `||input
 
 ## Step 4
 
-Use an `||logic: if true then ||` block to play a `||music: melody ||` when the  `||input: light level ||` is greater than your ambient reading.
-You can remove the ``||basic: show number||`` block if you like
+Use an `||logic: if true then ||` block to play a `||music: melody ||` with a fast `||music: tempo ||`  when the  `||input: light level ||` is greater than your ambient reading.
+You can remove the ``||basic: show number||`` block now we know our light level reading
 
 ## Step 5
 
