@@ -65,13 +65,34 @@ You may need to click the ``||logic: + ||`` button to extend the ``||logic: if /
 
 ## Step 8
 
-**Optional**: Instead of dispaying letters, use ``||music: music ||`` to alert when the Micro:bit is tilted
+**Advanced**: Instead of dispaying letters, use ``||music: music ||`` to alert when the Micro:bit is tilted
 
 Remeber to add code so the Micro:bit does not make any sound when it is flat
 
 ### ~ tutorialhint You can use any output to alert that it is not flat. Try discovering other ways
 
 
+
 ## Step 9
+
+**Advanced**: Hold up the micro:bit and tilt it from side to side. This time try and display the x/y/z degree using the `|| input: acceleration ||` block
+
+### ~ tutorialhint Read here about the micro:bits acceleration input. https://makecode.microbit.org/reference/input/acceleration 
+
+
+
+
+## Step 10
+
+**Advanced**: 
+
+Use the `|| input: acceleration ||` block to play a different tone of noise, depending on how much the micro:bit is tilted. 
+
+Remembering to not play any noise when the micro:bit is flat - as the cells are safe!
+
+### ~ tutorialhint To achieve a sound on both the `|| input: x ||` and `|| input: y ||` axis, you will need to use `|| math: acceleration + 1024 ||` to increase the range. 
+
+
+## Step 11
 
 If you have a Micro:bit connected, click ``|Download|`` to transfer your code and test your Flat Flask!
